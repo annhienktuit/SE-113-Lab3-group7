@@ -54,18 +54,18 @@ namespace Test_Validate
             [TestCase(32, 12, 2000, false)]
 
 
-            [TestCase(28, 1, 2000, true)]
+            [TestCase(30, 1, 2000, true)]
             [TestCase(28, 2, 2000, true)]
-            [TestCase(28, 3, 2000, true)]
+            [TestCase(30, 3, 2000, true)]
             [TestCase(28, 4, 2000, true)]
-            [TestCase(28, 5, 2000, true)]
+            [TestCase(31, 5, 2000, true)]
             [TestCase(28, 6, 2000, true)]
-            [TestCase(28, 7, 2000, true)]
+            [TestCase(31, 7, 2000, true)]
             [TestCase(28, 8, 2000, true)]
             [TestCase(28, 9, 2000, true)]
             [TestCase(28, 10, 2000, true)]
             [TestCase(28, 11, 2000, true)]
-            [TestCase(28, 12, 2000, true)]
+            [TestCase(31, 12, 2000, true)]
         
         public void TestValidation(int day, int month, int year, bool result)
             {
